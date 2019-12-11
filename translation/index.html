@@ -1,0 +1,73 @@
+<!doctype html>
+
+<head>
+  <title> English-French Translation: Using TensorFlow.js and Node.js </title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../style/index_style.css" />
+
+  <style>
+    .input-div {
+      padding: 5px;
+      font-family: monospace;
+    }
+
+    .input-output-label {
+      display: inline-block;
+    }
+
+    .output {
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="Nodetfjs-translate-container centered-container">
+    <center><section class='title-area'><br>
+      <h1> English-French Translation</h1>
+    </section>
+
+    <section>
+		<p class='section-head'>Description</p>
+
+      <p>
+        This application demonstrates a pre-trained sequence-to-sequence models can be used in the browser. It is
+        based on the <a href="https://github.com/keras-team/keras/blob/master/examples/lstm_seq2seq.py">Keras
+          LSTM-seq2seq example</a> and uses a character based model to translate the text. The model was first trained in python and then converted to Tensorflow.js Format.
+      </p>
+	 
+    </section>
+
+    <section>
+      <p class='section-head'>Status</p>
+      <span id="status">Standing by.</span>
+    </section>
+
+    <section>
+      <p class='section-head'>Load Model</p>
+
+      <div class="create-model">
+        <button id="load-pretrained-remote" style="display:none">Load hosted pretrained model</button>
+        <button id="load-pretrained-local" style="display:none">Load local pretrained model</button>
+      </div>
+    </section>
+
+    <section>
+      <p class='section-head'>Translate Here</p>
+
+      <div class="input-div">
+        <span class="input-output-label">Input English phrase:</span>
+        <input id="englishSentence" size=16 maxlength="16"></input>
+      </div>
+      <div class="input-div">
+        <span class="input-output-label">Output French phrase:</span>
+        <span class="output" id="frenchSentence"></span>
+      </div>
+    </section>
+  </div>
+
+  <script src="index.js"></script>
+  </center>
+</body>
