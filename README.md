@@ -15,12 +15,13 @@ The model was trained in Node.js with Tensorflow.js, which the model code is con
 
 ## LAUNCHING THE APP
 
-To launch the demo, do
+To launch the application, do
 
 ```sh
 yarn
 yarn watch
 ```
+in the translation folder destination
 
 
 ## Credits
