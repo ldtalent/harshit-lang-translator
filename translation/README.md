@@ -25,4 +25,4 @@ yarn watch
 
 ## Credits
 
-I, learnt alot from the tensorflowjs examples and have followed their guide to produce this code.
+I have learnt alot from the tensorflowjs examples and have followed their guide to produce this code.
