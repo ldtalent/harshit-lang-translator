@@ -13,7 +13,7 @@ The training data was 149,861 English-French sentence pairs available from [http
 The model was trained in Node.js with Tensorflow.js, which the model code is converted from Python to TypeScript by @[huan](https://github.com/huan) based on the [translation.py](https://github.com/tensorflow/tfjs-examples/blob/master/translation/python/translation.py) example.
 
 
-## LANCH DEMO
+## LAUNCHING THE APP
 
 To launch the demo, do
 
